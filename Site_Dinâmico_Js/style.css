@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+
+.header {
+    border: 1px solid black;
+    background-color: rgb(250, 203, 141);
+    width: 250px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.header h1{
+    cursor: pointer;
+}
+
+.content {
+    border: 1px solid black;
+    background-color: rgb(250, 184, 97);
+    margin-right: 100px;
+
+    width: 250px;
+    height: 300px;
+}
